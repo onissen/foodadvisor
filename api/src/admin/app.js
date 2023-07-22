@@ -3,7 +3,7 @@ import TweetButton from "./extensions/components/TweetButton";
 
 export default {
   config: {
-    locales: ["fr"],
+    locales: ["fr", "de"],
     translations: {
       fr: {
         "components.PreviewButton.button": "Prévisualiser",
@@ -12,6 +12,10 @@ export default {
       en: {
         "components.PreviewButton.button": "Preview",
         "components.TweetButton.button": "Share on Twitter",
+      },
+      de: {
+        "components.PreviewButton.button": "Vorschau",
+        "components.TweetButton.button": "Auf Twitter teilen",
       },
     },
   },
