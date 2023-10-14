@@ -16,7 +16,7 @@ const Cta = ({ title, text, buttons, theme }) => {
                 className="mt-4 md:mt-4 inline-flex rounded-md shadow"
                 key={`ctaButton-${index}`}
               >
-                <Link
+                <Link legacyBehavior
                   href={delve(button, 'link.href')}
                   key={`cta-button-${index}`}
                 >

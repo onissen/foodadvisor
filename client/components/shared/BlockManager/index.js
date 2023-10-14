@@ -141,7 +141,7 @@ const BlockManager = ({ blocks, contentType, pageData, type }) => {
                   {contentType} {'>'} {pageData?.id} {'>'} {block.__component}
                 </div>
                 {window.__NEXT_PUBLIC_API_URL && (
-                  <Link
+                  <Link legacyBehavior
                     href={`${
                       window.__NEXT_PUBLIC_API_URL || 'http://localhost:1337'
                     }/admin/content-manager/${type}/api::${contentType}.${contentType}/${
