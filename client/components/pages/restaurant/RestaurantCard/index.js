@@ -13,7 +13,7 @@ const RestaurantCard = ({
 }) => {
   const description = delve(information, "description");
   return (
-    <Link href={`/restaurants/${slug}?lang=${locale}`}>
+    <Link legacyBehavior href={`/restaurants/${slug}?lang=${locale}`}>
       <div className="overflow-hidden shadow-lg rounded-lg h-90 w-full cursor-pointer">
         <img
           alt={delve(images, "data.0.attributes.alternativeText")}

@@ -28,7 +28,7 @@ const RestaurantContent = ({ pageData }) => {
   return (
     <Container>
       <section className="text-gray-600 body-font overflow-hidden mt-40">
-        <Link href={`/restaurants?lang=${locale}`}>
+        <Link legacyBehavior href={`/restaurants?lang=${locale}`}>
           <button
             type="button"
             className="ml-2 py-4 px-6 bg-secondary hover:bg-secondary-darker text-white w-1/8 text-center text-base font-semibold shadow-sm rounded-md"

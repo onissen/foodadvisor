@@ -4,7 +4,7 @@
   "version": "2.0.1",
   "description": "Official Strapi Demo Application",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
@@ -14,11 +14,13 @@
   "dependencies": {
     "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
     "@offset-dev/strapi-calendar": "^0.0.10",
+
     "@strapi/plugin-graphql": "4.13.5",
     "@strapi/plugin-i18n": "4.13.5",
     "@strapi/plugin-seo": "^1.9.4",
     "@strapi/plugin-users-permissions": "4.13.5",
     "@strapi/strapi": "4.13.5",
+
     "@webbio/strapi-plugin-scheduler": "^0.1.2",
     "better-sqlite3": "^7.6.2",
     "fs-extra": "^10.0.0",
@@ -31,7 +33,9 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "9267dde0-dde7-4f0f-a715-79e91590dca5"
+
+    "uuid": "FOODADVISOR-LOCAL-da0f305b-e57d-4169-a47f-0a532f93f69b"
+
   },
   "engines": {
     "node": ">=14.x.x <=18.x.x",
