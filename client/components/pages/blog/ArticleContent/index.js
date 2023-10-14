@@ -53,7 +53,7 @@ const ArticleContent = ({ attributes }) => {
               />
             </div>
           </div>
-          <Link href={`/blog?lang=${locale}`}>
+          <Link legacyBehavior href={`/blog?lang=${locale}`}>
             <button
               type="button"
               className="ml-2 py-4 mt-8 px-6 bg-secondary hover:bg-secondary-darker text-white w-1/8 text-center text-base font-semibold shadow-sm rounded-md"

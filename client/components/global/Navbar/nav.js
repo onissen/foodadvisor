@@ -5,7 +5,7 @@ const Nav = ({ links, locale }) => {
   return (
     <nav className="text-xl mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       {links.map((link, index) => (
-        <Link
+        <Link legacyBehavior
           href={`${delve(link, 'href')}?lang=${locale || 'en'}`}
           key={`navigationLink-${index}`}
         >
